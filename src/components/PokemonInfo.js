@@ -34,7 +34,7 @@ export default class PokemonInfo extends Component{
 
     render() {
 
-        const { pokemon,  loading , error, status} = this.state;
+        const { pokemon,  error, status} = this.state;
         const { pokemonName } = this.props;
 
         if (status === 'idle') {
